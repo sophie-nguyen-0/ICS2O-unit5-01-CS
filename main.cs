@@ -9,26 +9,19 @@ class Program
 {
     public static void Main(string[] args)
     {
-        int length;
-        int width;
-        int area;
-        int perimeter;
+      int number;
+      int num;
 
-        Console.WriteLine("calculates the area and perimeter of a rectangle.");
-        Console.WriteLine("");
+      System.Random random = new System.Random(); 
+      
+      Console.Write("Enter a number from 1-6 ");
+        number = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Enter length (cm): ");
-        length = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter width (cm): ");
-        width = Convert.ToInt32(Console.ReadLine());
+      num = random.Next(6);
 
-        area = length * width;
-        perimeter = 2 * (length + width);
-
-        Console.WriteLine("");
-        Console.WriteLine("The area is: " + area + " cm². ");
-        Console.WriteLine("perimeter is: " + perimeter + " cm. ");
-
+      if (number == num){
+        Console.WriteLine("you did it!");
+      }
         Console.WriteLine("\nDone.");
     }
 }

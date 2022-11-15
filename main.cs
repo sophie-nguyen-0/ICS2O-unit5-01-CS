@@ -12,7 +12,7 @@ class Program
       int number;
       int num;
 
-      System.Random random = new System.Random(); 
+      System.Random random=new System.Random();
       
       Console.Write("Enter a number from 1-6: ");
         number = Convert.ToInt32(Console.ReadLine());

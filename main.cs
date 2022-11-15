@@ -15,16 +15,16 @@ class Program
         System.Random random=new System.Random();
 
         Console.Write("Enter a number from 1-6: ");
-        number = Convert.ToInt32(Console.ReadLine());
+        number=Convert.ToInt32(Console.ReadLine());
 
-        num = random.Next(6);
+        num=random.Next(6);
 
-        if (number == num){
+        if(number==num){
           Console.WriteLine("you did it!");
         }
-        if (number != num){
+        if(number!=num){
           Console.WriteLine("oops! Try again");
         }
-          Console.WriteLine("\nDone.");
+        Console.WriteLine("\nDone.");
     }
 }

@@ -21,11 +21,11 @@ class Program
 
         if (number == num)
         {
-        Console.WriteLine("you did it!");
+          Console.WriteLine("you did it!");
         }
         if (number != num)
         {
-        Console.WriteLine("oops! Try again");
+          Console.WriteLine("oops! Try again.");
         }
         Console.WriteLine("\nDone.");
     }

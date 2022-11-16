@@ -19,10 +19,12 @@ class Program
 
         num = random.Next(6);
 
-        if(number == num){
+        if (number == num)
+        {
           Console.WriteLine("you did it!");
         }
-        if(number != num){
+        if (number != num)
+        {
           Console.WriteLine("oops! Try again");
         }
           Console.WriteLine("\nDone.");
